@@ -1,0 +1,70 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.titlebar h1{
+    background-color: black;
+    color: white;
+    width: 600px;
+    padding:10px 20px;
+    margin: 0px 20px;
+}
+
+div.left{
+    display: flex;
+    flex-direction:column;
+    width:150px;
+    height:225px;
+    border: 3px solid black;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px 10px;
+    margin:52px 20px;
+}
+
+div.left img{
+    width:75px;
+}
+
+div.body{
+    display: flex;
+}
+
+div.right h2{
+    margin:10px;
+    padding-left:20px;
+}
+
+div.neil, div.nichole, div.jim{
+    border: solid 3px black;
+    margin:10px;
+    padding:10px;
+    width: 420px;
+}
+
+div.top{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+div.top h3{
+    font-weight: 500;
+}
+
+div.likes{
+    display:flex;
+    align-items: center;
+}
+button.likes{
+    background-color: goldenrod;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    width:50px;
+    padding: 5px;
+    margin-left:30px;
+}
